@@ -1,0 +1,37 @@
+body {
+    font-size: 20px;
+    background-color:black;
+    color: white;}
+
+#Opdrachten {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 28px;
+    padding: 10px;
+    border: solid 1px white;}
+
+#Opdrachten li {
+    list-style-type: none;}
+
+li{
+    padding: 5px;}
+
+#DataBase, #RadioButtons {
+    font-size: 25px;
+    column-count: 2;
+    column-gap: 10px; 
+    list-style-type: none;
+    text-align: center;
+    }  
+
+    #RadioButtons{
+        display: flex;
+        justify-content: center;
+    }
+
+#Toelichting, #Toelichting2 {
+    text-align: center;
+    color:red;
+    font-size:40px;}
