@@ -20,8 +20,9 @@ li{
 
 #DataBase, #RadioButtons {
     font-size: 25px;
-    column-count: 2;
+    column-count: 3;
     column-gap: 10px; 
+    column-fill:inherit;
     list-style-type: none;
     text-align: center;
     }  

@@ -1,10 +1,11 @@
 const log = console.log
 
 document.getElementById("opdracht5").addEventListener('click', showButtons)
-const opdracht7 = document.querySelector("#opdracht7").addEventListener('click', showTheAverageAgeInFrance);
-document.querySelector("#opdracht8").addEventListener('click', showTheAverageAgeInSlovakia);
-document.querySelector("#opdracht9").addEventListener('click', showTheAverageAgeInColombia);
+// document.getElementById("opdracht7").addEventListener('click', showTheAverageAgeInFrance);
 
+document.getElementById("opdracht8").addEventListener('click', showTheAverageAgeInSlovakia);
+// document.getElementById("opdracht9").addEventListener('click', showTheAverageAgeInColombia);
+console.log()
 
 
 const getFrance = randomPersonData.filter(result => result.region === "France")
@@ -42,7 +43,7 @@ function showButtons() {
     france.setAttribute("type", "radio")
     france.setAttribute("name", "filter")
     france.setAttribute("value", "opdracht7")
-    france.setAttribute("id", "opdracht7")
+    france.id = ("opdracht7")
 
     franceLable = document.createElement("lable");
     franceText = document.createTextNode("FRANCE")
@@ -55,7 +56,7 @@ function showButtons() {
     slovakia.setAttribute("type", "radio")
     slovakia.setAttribute("name", "filter")
     slovakia.setAttribute("value", "opdracht8")
-    slovakia.setAttribute("id", "opdracht8")
+    slovakia.id = ("opdracht8")
 
     slovakiaLable = document.createElement("lable");
     slovakiaText = document.createTextNode("SLOVAKIA")
@@ -68,8 +69,8 @@ function showButtons() {
     colombia.setAttribute("type", "radio")
     colombia.setAttribute("name", "filter")
     colombia.setAttribute("value", "opdracht9")
-    colombia.setAttribute("id", "opdracht9")
 
+    colombia.id = ("opdracht9")
     colombiaLable = document.createElement("lable");
     colombiaText = document.createTextNode("COLOMBIA")
 
